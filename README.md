@@ -48,7 +48,11 @@ Or install it yourself as:
 
 ## TODO
 
- Specs - add higher level and integration tests
+  * Implement configuration - which html elements will be disabled, override the default a, input, select, textarea and button
+
+  * JS specs
+
+  * Specs - add higher level and integration tests
 
 ## License
 
