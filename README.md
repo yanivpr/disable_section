@@ -1,6 +1,7 @@
-# DisableSection
+# Disable Section
 
 UI helper that disables an entire section with its inner html elements based on a given condition during render phase.
+For example, you have a form which can be edited only in "edit mode" but readonly in "view mode".
 
 ## Installation
 
@@ -31,7 +32,7 @@ Or install it yourself as:
      If the predicate is false, then the block will be rendered normally.
 
     ```ruby
-      <%= disable_section can_fill_this_field? do %>
+      <%= disable_section view_mode? do %>  <!-- suppose view_mode? is your redicate -->
         <%= f.email_field :email %>
       <% end %>
     ```
