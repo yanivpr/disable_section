@@ -1,5 +1,7 @@
 # Disable Section
 
+## Description
+
 UI helper that disables an entire section with its inner html elements based on a given condition during render phase.
 For example, you have a form which can be edited only in "edit mode" but readonly in "view mode".
 
